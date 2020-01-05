@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>标题</title>
+     <link href="../static/hf.css" rel="stylesheet"/>
+</head>
+<body>
+        <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+
+            <div align="center"><font color="#FFFFFF">
+              <h1> ✍🏻✍🏻✍🏻揭深广佛的社会经济现象探索性研究✍🏻✍🏻✍🏻  </h1></font>
+
+            </div></nav>
+
+   <div id="row">
+            <div class="">
+                <ul class="nav nav-sidebar">
+
+    
+                </ul>
+            </div></div>
+            <div class="col-sm-9 col-md-offset-3 col-md-10">
+
+
+
+            </div>
+<form method="POST" action="/hurun">
+    <select name="the_region_selected">
+        {% for item in the_select_region %}
+            <option value="{{ item }}">{{ item }}</option>
+        {% endfor %}
+    </select>
+<p><input value='Do it!' type='SUBMIT'></p>
+</form>
+{{ the_plot_all|safe }}
+{{ the_res|safe }}
+
+   <div id="row">
+            <div class="">
+                <ul class="nav nav-sidebar">
+
+
+                </ul>
+            </div></div>
+            <div class="col-sm-9 col-md-offset-3 col-md-10">
+
+
+
+            </div>
+
+
+       <h2> 请尝试 <a href="{{ url_for('login') }}">登陆数据故事</a></h2>
+</body>
+</html>
