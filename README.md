@@ -12,7 +12,7 @@
 - [数据文档（下载）/API数据](https://github.com/G-2000/python/tree/master/data)
 
 ### HTML文档
-写了18个html文档。
+
 1.可跳转以下四个页面：
 - feedback.html对应的是项目简介
 - election.html对应的是数据故事
@@ -37,6 +37,8 @@
 
 - ![数据结构嵌套](https://github.com/G-2000/python/blob/master/img/construction.png)
 
+- ![数据结构2](https://github.com/G-2000/python/blob/master/img/cons.png)
+
 - ![推导式](https://github.com/G-2000/python/blob/master/img/reduction.png)
 
 - ![if条件判断](https://github.com/G-2000/python/blob/master/img/if_judgument.png)
@@ -48,5 +50,8 @@
 ## HTML界面
 - ![实现数据的python——>HTML页面交互](https://github.com/G-2000/python/blob/master/img/ph.png)
 
+【有时候github会抽，遇到图片下载不出来，请手动点击去
+
 ### 部署到pythonanywhere
 - [http://g2000.pythonanywhere.com/](http://g2000.pythonanywhere.com/)
+ps.其中《数据故事》有四大部分，有时候进去只显示了前两大部分，需要耐心等待一下才能加载完
