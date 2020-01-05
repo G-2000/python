@@ -1,14 +1,14 @@
 # 揭深广佛的社会经济现象探索性研究
 
 ## 技术文档
-- [templates]([https://github.com/G-2000/python/tree/master/project/Election/templates](https://github.com/G-2000/python/tree/master/project/Election/templates)
-)
-- [static]([https://github.com/G-2000/python/tree/master/project/Election/static](https://github.com/G-2000/python/tree/master/project/Election/static)
-)
-- [run.py]([https://github.com/G-2000/python/blob/master/project/run.py](https://github.com/G-2000/python/blob/master/project/run.py)
-)
-- [view.py]([https://github.com/G-2000/python/blob/master/project/Election/view.py](https://github.com/G-2000/python/blob/master/project/Election/view.py)
-)
+- [templates](https://github.com/G-2000/python/tree/master/project/Election/templates)
+
+- [static](https://github.com/G-2000/python/tree/master/project/Election/static)
+
+- [run.py](https://github.com/G-2000/python/blob/master/project/run.py)
+
+- [view.py](https://github.com/G-2000/python/blob/master/project/Election/view.py)
+
 - [数据文档（下载）/API数据]()
 ### HTML文档
 写了18个html文档。
