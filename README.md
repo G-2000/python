@@ -2,4 +2,4 @@
 成员：刘炜豪 黄丽妙 徐旖芊
 
 ## 部署到pythonanywhere
-- [URL](http://g2000.pythonanywhere.com/)
+- [http://g2000.pythonanywhere.com/](http://g2000.pythonanywhere.com/)
