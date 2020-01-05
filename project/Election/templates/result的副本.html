@@ -1,0 +1,62 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+            <title>
+                查看详细
+            </title>
+            <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+                <link rel="stylesheet" type="text/css" href="{{%20url_for('static',%20filename='css/election1.css')%20}}">
+                    <link rel="stylesheet" type="text/css" href="../static/css/election1.css">
+                        <script src="http://lib.sinaapp.com/js/jquery/2.0.2/jquery-2.0.2.min.js" type="text/javascript">
+                            </script>
+                        <script src="{{%20url_for('static',%20filename='js/election9.js')%20}}" type="text/javascript">
+                            </script>
+                        <script src="../static/js/election9.js" type="text/javascript">
+                            </script>
+                        </head>
+    <body>
+        <ul class="nav navbar-nav navbar-left">
+            <li>
+                <a href="{{%20url_for('selected',username=session.get('name'))%20}}" id="user">{{ user_name }}欢迎您！</a>
+            </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+                <a href="{{%20url_for('logout')%20}}">登出</a>
+            </li>
+        </ul>
+        <div id="row">
+            <div class="col-sm-3 col-md-2 sidebar">
+                <ul class="nav nav-sidebar">
+                    <li>
+                        <a href="{{%20url_for('feedback2',username=session.get('name'))%20}}" id="name">日常反馈</a>
+                    </li>
+                    <li>
+                        <a href="{{%20url_for('election',username=session.get('name'))%20}}" id="name">我的任务</a>
+                    </li>
+                    <li>
+                        <a href="{{%20url_for('selected',username=session.get('name'))%20}}" id="name">查看评估</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-9 col-md-offset-3 col-md-10">
+                <h1>
+                    <a href="{{%20url_for('course',username=session.get('name'))%20}}" id="name">{{ course_name }}详细结果</a>
+                </h1>
+            </div><script type='text/javascript' src='https://eu-west-1a.online.tableau.com/javascripts/api/viz_v1.js'>
+                </script>
+                <div class='tableauPlaceholder' style='width: 1016px; height: 991px;'>
+                <object class='tableauViz' width='1016' height='991' style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Feu-west-1a.online.tableau.com%2F'>
+                <param name='embed_code_version' value='3'>
+                <param name='site_root' value='/t/171013057'>
+                <param name='name' value='_1/sheet8'>
+                <param name='tabs' value='no'>
+                <param name='toolbar' value='yes'>
+                <param name='showAppBanner' value='false'>
+                <param name='filter' value='iframeSizedToWindow=true'>
+                </object>
+                </div>
+                </div>
+                </body>
+                </html>

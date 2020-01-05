@@ -1,0 +1,40 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+            <title>日常反馈</title>
+            <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+                <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/election1.css') }}">
+                    <link rel="stylesheet" type="text/css" href="../static/css/election1.css">
+                        
+                        <script src="http://lib.sinaapp.com/js/jquery/2.0.2/jquery-2.0.2.min.js"></script>
+                        <script src="{{ url_for('static', filename='js/election9.js') }}"></script>
+                        <script src="../static/js/election9.js"></script>
+                        
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="{{ url_for('selected',username=session.get('name')) }}" id="name">{{ user_name }}欢迎您！</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="{{ url_for('logout') }}">登出</a></li>
+            </ul>
+            </div>
+        </nav>
+        <div id="row">
+            <div class="col-sm-3 col-md-2 sidebar">
+                <ul class="nav nav-sidebar">
+                    <h3><li><a href="{{ url_for('feedback2',username=session.get('name')) }}" id="name">日常反馈</a></li></h3>
+                    <h3><li><a href="{{ url_for('election',username=session.get('name')) }}" id="name">我的任务</a></li></h3>
+                    <h3><li><a href="{{ url_for('selected',username=session.get('name')) }} "id="name">查看评估</a></li></h3>
+                </ul>
+            </div>
+            <div class="col-sm-9 col-md-offset-3 col-md-10">
+                <h1>详细结果</a></H1>
+                <div class='tableauPlaceholder' id='viz1546750708851' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_2&#47;_29107&#47;sheet8&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='_29107&#47;sheet8' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_2&#47;_29107&#47;sheet8&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1546750708851');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1016px';vizElement.style.height='991px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+            </div>
+        </div>
+        
+        
+    </body>
+    </html>
