@@ -26,7 +26,7 @@
 
 ## 数据交互
 
-- ![if条件判断](/if_judgument.png)
+- ![if条件判断](https://github.com/G-2000/python/blob/master/img/construction.png)
 - ![自定义election和model模块](/em_model.jpg)
 - ![python和HTML传递](/tran_ph.png)
 
